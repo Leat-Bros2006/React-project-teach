@@ -53,7 +53,7 @@ const FetctApi = () => {
             <section className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
                 {data.map((item, index) => {
                     return (
-                        <div className="bg-white shadow rounded-[6px] overflow-hidden">
+                        <div key={index} className="bg-white shadow rounded-[6px] overflow-hidden">
                             <div className='p-4'>
                                 <img className='rounded border border-slate-900 p-3 w-full h-[250px] object-contain' src={item.image} alt="" />
                             </div>
