@@ -1,6 +1,6 @@
 import React from 'react'
 import FetctApi from './FetctApi'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
